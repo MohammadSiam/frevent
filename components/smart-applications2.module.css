@@ -1,0 +1,64 @@
+.frameChild,
+.frameItem,
+.rectangleParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameChild,
+.frameItem {
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleParent {
+  margin: 0 !important;
+  z-index: 0;
+}
+.suitableForOffice {
+  margin-top: -30.563rem;
+  width: 19.375rem;
+  line-height: 1.25rem;
+  display: inline-block;
+  z-index: 1;
+}
+.frameParent,
+.office,
+.suitableForOffice {
+  flex-shrink: 0;
+  position: relative;
+}
+.office {
+  margin: 0;
+  width: 19.438rem;
+  height: 2rem;
+  font-size: var(--font-size-5xl);
+  line-height: 2rem;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.frameParent {
+  width: 23.125rem;
+  height: 28.125rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-359xl) var(--padding-11xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-430xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-suisse-intl);
+}

@@ -1,0 +1,97 @@
+.featureBackground {
+  height: 16.875rem;
+  width: 16.875rem;
+  position: relative;
+  backdrop-filter: blur(40px);
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    134.73deg,
+    rgba(33, 58, 89, 0.9),
+    rgba(12, 100, 122, 0.9)
+  );
+  display: none;
+}
+.fi17312798Icon {
+  width: 3.125rem;
+  height: 3.125rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.featureLabel,
+.fi17312798Icon,
+.labelIcon {
+  position: relative;
+  z-index: 1;
+}
+.labelIcon {
+  width: 3.125rem;
+  height: 0.063rem;
+}
+.featureLabel {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.cardContent,
+.labelContainer {
+  width: 14.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.cardContent {
+  width: 11.875rem;
+  gap: var(--gap-58xl);
+}
+.featureNumber {
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 2.5rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transform: rotate(-90deg);
+  opacity: 0.5;
+  z-index: 1;
+}
+.featureCard {
+  align-self: stretch;
+  backdrop-filter: blur(40px);
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    134.73deg,
+    rgba(33, 58, 89, 0.9),
+    rgba(12, 100, 122, 0.9)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-lgi) var(--padding-41xl)
+    var(--padding-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 825px) {
+  .featureNumber {
+    font-size: var(--font-size-13xl);
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featureLabel {
+    font-size: var(--font-size-lgi);
+    line-height: 1.375rem;
+  }
+  .featureNumber {
+    font-size: var(--font-size-5xl);
+    line-height: 1.5rem;
+  }
+}

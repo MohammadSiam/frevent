@@ -1,0 +1,32 @@
+.productImageIcon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+}
+.productName {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.verticalCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-suisse-intl);
+}

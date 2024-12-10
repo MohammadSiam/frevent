@@ -1,0 +1,147 @@
+.commitmentSectionBackground {
+  height: 57.5rem;
+  width: 90rem;
+  position: relative;
+  background-color: var(--white);
+  display: none;
+  opacity: 0.5;
+  max-width: 100%;
+}
+.unionIcon {
+  height: 38.125rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 24.375rem;
+}
+.durability {
+  color: var(--color);
+}
+.detailInfoTitleContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.detailInfoSubtitle {
+  position: relative;
+  font-size: var(--text-medium-16-semibold-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-1100);
+}
+.detailInfoBlock {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.eleganceIn {
+  margin: 0;
+}
+.everyStep {
+  margin: 0;
+  color: var(--color);
+}
+.detailInfoTitleContainer1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.detailTextContainer {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.commitmentSection,
+.detailInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.commitmentSection {
+  margin-left: -0.688rem;
+  margin-bottom: 433.75rem;
+  width: 90rem;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-131xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-181xl);
+  z-index: 5;
+  margin-top: -483rem;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--dark);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 1400px) {
+  .commitmentSection {
+    gap: var(--gap-81xl);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .detailTextContainer {
+    flex: 1;
+  }
+  .detailInfoContainer {
+    gap: var(--gap-16xl);
+    flex-wrap: wrap;
+  }
+  .commitmentSection {
+    padding-top: var(--padding-131xl);
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .unionIcon {
+    min-width: 100%;
+  }
+  .detailInfoTitleContainer,
+  .detailInfoTitleContainer1 {
+    font-size: var(--font-size-19xl);
+    line-height: 2.875rem;
+  }
+  .detailTextContainer {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+  .detailInfoContainer {
+    gap: var(--gap-mid);
+  }
+  .commitmentSection {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .detailInfoTitleContainer,
+  .detailInfoTitleContainer1 {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+  .commitmentSection {
+    gap: var(--gap-6xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}

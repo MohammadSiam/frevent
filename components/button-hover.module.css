@@ -1,0 +1,126 @@
+.actionBackgroundIcon,
+.actionContainerIcon,
+.actionIconWrapper {
+  position: absolute;
+  top: 5rem;
+  width: 5.625rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.actionContainerIcon {
+  left: 0;
+}
+.actionBackgroundIcon,
+.actionIconWrapper {
+  left: 5.625rem;
+}
+.actionIconWrapper {
+  left: 11.25rem;
+}
+.actionIconBackground {
+  position: absolute;
+  top: 0.031rem;
+  left: 0;
+  max-height: 100%;
+  width: 16.875rem;
+}
+.copyCheck1Icon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.compare {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+}
+.copyCheck1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.reportSearch1Icon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.query {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+}
+.reportSearch1Parent {
+  position: absolute;
+  top: 0;
+  left: 5.625rem;
+  width: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.handMove1Icon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.view {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+}
+.handMove1Parent {
+  position: absolute;
+  top: 0;
+  left: 11.25rem;
+  width: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.actionSeparatorIcon,
+.frameParent {
+  position: absolute;
+  left: 0;
+  width: 16.875rem;
+}
+.frameParent {
+  top: 0;
+  height: 4.938rem;
+}
+.actionSeparatorIcon {
+  top: 4.969rem;
+  max-height: 100%;
+}
+.buttonHover {
+  width: 16.875rem;
+  position: relative;
+  height: 5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-suisse-intl);
+}

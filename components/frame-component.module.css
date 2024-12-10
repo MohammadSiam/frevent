@@ -1,0 +1,110 @@
+.label {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 9.375rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.labelWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.smartChoiceFor {
+  margin: 0;
+}
+.solutions {
+  color: var(--dark);
+}
+.costEffectiveSolutions {
+  margin: 0;
+  color: var(--color);
+}
+.sectionTitle {
+  margin: 0 !important;
+  position: absolute;
+  top: -3.75rem;
+  left: -0.812rem;
+  font-size: var(--font-size-53xl);
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: left;
+  z-index: 2;
+  color: var(--dark);
+}
+.footnoteParent,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footnoteParent {
+  flex-direction: row;
+  position: relative;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.frameParent,
+.frameWrapper,
+.horizontalBlock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.horizontalBlock {
+  width: 73.125rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-11xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--font-size-181xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 825px) {
+  .label {
+    font-size: var(--font-size-61xl);
+    line-height: 5.625rem;
+  }
+  .sectionTitle {
+    font-size: var(--font-size-39xl);
+    line-height: 4.313rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .label {
+    font-size: var(--font-size-31xl);
+    line-height: 3.75rem;
+  }
+  .sectionTitle {
+    font-size: var(--font-size-24xl);
+    line-height: 3.25rem;
+  }
+}

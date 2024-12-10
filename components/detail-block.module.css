@@ -1,0 +1,51 @@
+.footerIcon {
+  width: 6.25rem;
+  height: 6.25rem;
+  position: relative;
+}
+.better,
+.label {
+  margin: 0;
+}
+.label {
+  width: 16.875rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.description {
+  position: relative;
+  font-size: var(--text-medium-16-semibold-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-1100);
+}
+.detailBlock,
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.verticalContainer {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.detailBlock {
+  flex: 1;
+  gap: var(--gap-11xl);
+  min-width: 17.313rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 450px) {
+  .label {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+}

@@ -1,0 +1,99 @@
+.frameChild {
+  width: 0.694rem;
+  height: 0.625rem;
+  position: relative;
+}
+.buttonContentInner {
+  height: 0.938rem;
+  width: 0.694rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.exploreProducts {
+  height: 1.25rem;
+  width: 7.938rem;
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameItem {
+  width: 0.625rem;
+  height: 0.625rem;
+  position: relative;
+}
+.buttonContent,
+.buttonContentChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonContentChild {
+  height: 0.938rem;
+  width: 0.625rem;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.buttonContent {
+  width: 10.444rem;
+  height: 1.25rem;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.frameInner {
+  width: 9.063rem;
+  position: relative;
+  height: 0.063rem;
+}
+.vectorWrapper {
+  width: 18.75rem;
+  height: 0.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-136xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.vectorIcon {
+  width: 9.063rem;
+  position: relative;
+  height: 0;
+  z-index: 2;
+  margin-top: -0.063rem;
+}
+.frameParent,
+.v6AllButton {
+  width: 18.75rem;
+  height: 0.063rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.v6AllButton {
+  height: 2rem;
+  width: 9.125rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 69rem;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-12xs) 0;
+  gap: var(--gap-3xs);
+  z-index: 6;
+  text-align: left;
+  font-size: var(--text-medium-16-semibold-size);
+  color: var(--color-gray-800);
+  font-family: var(--font-suisse-intl);
+}

@@ -1,0 +1,313 @@
+.callToActionBackground {
+  height: 18.356rem;
+  width: 90rem;
+  position: relative;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.sectionTitle {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.inquiryButtonContainerChild {
+  width: 0.694rem;
+  height: 0.625rem;
+  position: relative;
+}
+.inquiryButtonContainer {
+  height: 0.938rem;
+  width: 0.694rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.inquiryNow {
+  height: 1.25rem;
+  width: 5.688rem;
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.inquiryButtonContainerItem {
+  width: 0.625rem;
+  height: 0.625rem;
+  position: relative;
+}
+.inquiryButton,
+.inquiryButtonContainer1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inquiryButtonContainer1 {
+  height: 0.938rem;
+  width: 0.625rem;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.inquiryButton {
+  width: 8.319rem;
+  height: 1.25rem;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.frameChild,
+.frameItem {
+  width: 6.875rem;
+  position: relative;
+}
+.frameChild {
+  height: 0;
+}
+.frameItem {
+  height: 0.063rem;
+}
+.vectorParent,
+.vectorWrapper {
+  width: 14.375rem;
+  height: 0.063rem;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-101xl);
+}
+.vectorParent {
+  padding: 0 0 var(--padding-12xs);
+}
+.sectionTitleParent,
+.v6AllButton,
+.v6CtaInner,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.v6AllButton {
+  width: 6.938rem;
+  height: 2rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--text-medium-16-semibold-size);
+  color: var(--color-gray-1200);
+}
+.sectionTitleParent,
+.v6CtaInner {
+  align-items: flex-start;
+}
+.sectionTitleParent {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+  flex-shrink: 0;
+}
+.v6CtaInner {
+  width: 31.25rem;
+  padding: var(--padding-sm-4) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.label {
+  width: 5.625rem;
+  position: relative;
+  line-height: 1.25rem;
+  display: inline-block;
+}
+.actionDescriptionChild {
+  height: 14.063rem;
+  width: 14.063rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -7.125rem;
+  bottom: -7.75rem;
+  filter: blur(140px);
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue-400);
+}
+.descriptionText {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.actionContent,
+.actionDescription {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionDescription {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+}
+.actionContent {
+  flex-direction: column;
+}
+.downloadIconFrame {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+.ctaImageIcon,
+.ctaSectionFrame {
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+}
+.ctaSectionFrame {
+  flex: 1;
+  border: 1px solid var(--color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-137xl) var(--padding-lgi) var(--padding-4xl);
+  position: relative;
+  gap: var(--gap-xs);
+  min-width: 9.75rem;
+  z-index: 1;
+}
+.ctaImageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ctaIconFrame {
+  height: 2.45rem;
+  width: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+.ctaIconFrameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.ctaTitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.callToActionFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi-5) var(--padding-lgi) var(--padding-10xl-5)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-96xl-5);
+  min-width: 9.75rem;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+}
+.ctaSectionFrameParent,
+.v6Cta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.ctaSectionFrameParent {
+  width: 31.25rem;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-1300);
+}
+.v6Cta {
+  margin-left: -0.125rem;
+  margin-bottom: 4.068rem;
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-10xl-4) var(--padding-116xl) var(--padding-10xl-3);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--dark);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 1400px) {
+  .v6Cta {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sectionTitle {
+    font-size: var(--font-size-19xl);
+    line-height: 2.875rem;
+  }
+  .sectionTitleParent {
+    gap: var(--gap-11xl);
+  }
+  .ctaSectionFrameParent {
+    flex-wrap: wrap;
+  }
+  .v6Cta {
+    padding-left: var(--padding-48xl);
+    padding-right: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionTitle {
+    font-size: var(--font-size-10xl);
+    line-height: 2.188rem;
+  }
+  .ctaTitle,
+  .descriptionText {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .v6Cta {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

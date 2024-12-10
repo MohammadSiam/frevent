@@ -1,0 +1,231 @@
+.ofMdf,
+.productCategory {
+  margin: 0;
+}
+.productCategoryOfContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 73.125rem;
+}
+.v6SliderArrow,
+.v6SliderArrow1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  object-fit: contain;
+}
+.v6SliderArrow1 {
+  object-fit: cover;
+}
+.v6SliderArrowParent {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.productCategoryOfMdfParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 73.125rem;
+  height: 10.75rem;
+}
+.imageIcon {
+  align-self: stretch;
+  height: 26.25rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mrMdfBoard {
+  margin: 0;
+  width: 23.125rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.productItemSingle {
+  width: 23.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.imageIcon1 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.mdfBoard,
+.sheetMaterial {
+  margin: 0;
+}
+.mdfBoardSheetContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.productItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.imageIcon2 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.veneerMdf {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.productItem1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.imageIcon3 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.hmrHighMoisture {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.productItem2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.productItemChild {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.hplMoisture,
+.proof {
+  margin: 0;
+}
+.hplMoistureProofContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.productItem3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.productItemItem {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.melamineMoisture,
+.proofMdf {
+  margin: 0;
+}
+.melamineMoistureProofContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.productItem4,
+.sliderProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.sliderProducts {
+  position: absolute;
+  top: 14.5rem;
+  left: 0;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+}
+.sliderContent {
+  align-self: stretch;
+  height: 44.313rem;
+  position: relative;
+}
+.sliderContentWrapper {
+  width: 90rem;
+  height: 63.063rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) var(--padding-116xl);
+  box-sizing: border-box;
+  z-index: 2;
+  margin-top: -9.375rem;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--text);
+  font-family: var(--font-suisse-intl);
+}

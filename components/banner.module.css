@@ -1,0 +1,117 @@
+.bannerCardImage,
+.bannerShape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bannerShape {
+  background-color: var(--color-gray-200);
+}
+.bannerCardImage {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bannerCardTitle {
+  margin: 0;
+  width: 22.25rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.bannerCardBackground {
+  height: 1.875rem;
+  width: 5rem;
+  position: relative;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-1000);
+  flex-shrink: 0;
+  display: none;
+}
+.dotIcon,
+.frameChild {
+  position: relative;
+  z-index: 1;
+}
+.dotIcon {
+  height: 0.938rem;
+  width: 0.938rem;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 0.313rem;
+  height: 0.313rem;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+.bannerCardContent,
+.bannerCardContentInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.bannerCardContent {
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-1000);
+  overflow-x: auto;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-mid) var(--padding-5xs);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.banner,
+.bannerCard {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bannerCard {
+  width: 27.188rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-11xl)
+    var(--padding-11xl);
+  position: relative;
+  gap: var(--gap-289xl);
+  z-index: 2;
+}
+.banner {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 6.875rem;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-271xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-suisse-intl);
+}
+@media screen and (max-width: 450px) {
+  .bannerCardTitle {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .bannerCard {
+    gap: var(--gap-135xl);
+  }
+}

@@ -1,0 +1,20 @@
+.company {
+  height: 1.5rem;
+  width: 4.5rem;
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.v6MenuName {
+  height: 1.5rem;
+  width: 4.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-medium-16-semibold-size);
+  color: var(--white);
+  font-family: var(--font-suisse-intl);
+}
